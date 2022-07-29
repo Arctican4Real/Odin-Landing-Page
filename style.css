@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border : 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+body, html{
+    height: 100%;
+}
+
+.dummy{
+    font-size: 100px;
+}
+
+/*Styling the header */
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    background-color: #1f2937;
+    height :50px;
+    padding: 10px;
+
+    position: fixed;
+}
+
+.header div, .header a{
+    color: white;
+    font-size: 16px;
+
+}
+
+.header a{
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.header a{
+    background-color: #1f2937;
+    color: white;
+    transition: all 0.4s ease-out;
+}
+
+
+.header a:hover{
+    background-color: white;
+    color:  #1f2937 ;
+    transition: all 0.4s ease-in;
+}
+
+#logo{
+    font-size: 22px;
+    font-weight: 900;
+}
