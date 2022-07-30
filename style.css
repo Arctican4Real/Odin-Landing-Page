@@ -1,5 +1,5 @@
 /*Importing multiple fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script:wght@500&family=Fredoka+One&family=Mochiy+Pop+One&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script:wght@500&family=Fredoka+One&family=Mochiy+Pop+One&family=Roboto:ital,wght@0,300;1,300&display=swap');
 /*
     font-family: 'Amatic SC', cursive;
 
@@ -22,9 +22,9 @@
 }
 
 /*For debug*/
- /* *{
+*{
     outline: solid greenyellow 2px;
-} */
+} 
 
 *{
     margin: 0px;
@@ -225,4 +225,29 @@ body, html{
 .infoCardHighlight{
     color: var(--vivid-orange);
     font-weight: bolder;
+}
+
+/*Starting with quote*/
+.quote {
+    background-color: var(--soft-orange);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 150px;
+}
+
+.quoteText{
+    font-size: 52px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    color: var(--desaturated-cyan);
+    font-style: italic;
+}
+
+.quoteAuth{
+    text-align: right;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 20px;
+    color: #1c2f34;
+    margin-top: 30px;
 }
