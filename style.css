@@ -35,6 +35,16 @@
     box-sizing: border-box;
     text-decoration: none;
     color: black;
+    
+}
+
+img , button, button.div{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 body, html{
@@ -42,6 +52,7 @@ body, html{
     display: flex;
     flex-direction: column;
 }
+
 
 /*Styling the header */
 .header {
@@ -321,14 +332,6 @@ body, html{
     background-color: var(--vivid-orange);
 
     transition: all .3s ease-out;
-
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-
 }
 
 
