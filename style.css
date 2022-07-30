@@ -15,6 +15,12 @@
     --vivid-orange: #ffa101;
     --desaturated-cyan : #31525b;
     --soft-cyan : #83dee5;
+    --light-grey : #e5e7eb;
+}
+
+/*For debug*/
+*{
+    outline: solid greenyellow 2px;
 }
 
 *{
@@ -28,6 +34,8 @@
 
 body, html{
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .dummy{
@@ -41,7 +49,7 @@ body, html{
     align-items: center;
     width: 100%;
 
-    background-color: var(--desaturated-cyan);
+    background-color: var(--soft-cyan);
     height :50px;
     padding: 10px;
 
@@ -56,7 +64,7 @@ body, html{
     padding: 10px;
     margin-left: 10px;
     font-family: 'Roboto', sans-serif;
-    background-color: var(--desaturated-cyan);
+    background-color: var(--soft-cyan);
     color: white;
     transition: all 0.4s ease-out;
     border-radius: 20px;
@@ -64,7 +72,7 @@ body, html{
 
 
 .header a:hover{
-    background-color: var(--soft-cyan);
+    background-color: var(--vivid-orange);
     color: white ;
     transition: all 0.4s ease-in;
 }
@@ -84,4 +92,37 @@ body, html{
 
 #logo .orange{
     color:var(--vivid-orange);
+}
+
+/*Working on the topper*/
+.topper{
+    padding-top: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background-color: var(--soft-orange);
+}
+
+.toppertext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+
+    height: 500px;
+    width: 500px;
+}
+
+.topperhead {
+    font-size: 48px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-weight: bold;
+}
+
+.topperimg, .topperimg img{
+    height: 500px;
+    width: auto;
 }
