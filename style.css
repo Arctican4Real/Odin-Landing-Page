@@ -245,7 +245,7 @@ body, html{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 150px;
+    padding: 100px;
 }
 
 .quoteText{
