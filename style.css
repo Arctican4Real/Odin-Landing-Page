@@ -16,7 +16,7 @@
     --soft-orange : #fae6b1;
     --vivid-orange: #ffa101;
     --desaturated-cyan : #31525b;
-    --soft-cyan : #62bbdf;
+    --soft-cyan : #b3dee5;
     --light-grey : #e5e7eb;
     --slight-white : #f9faf8;
 }
@@ -208,7 +208,7 @@ body, html{
 .infoCardPic{
     width: 250px;
     height: 250px;
-    border: solid 5px var(--soft-cyan);
+    border: solid 5px var(--desaturated-cyan);
     border-radius: 20px;
     margin-bottom: 20px;
 }
@@ -220,4 +220,9 @@ body, html{
     font-size: 20px;
     font-weight: bold;
 
+}
+
+.infoCardHighlight{
+    color: var(--soft-cyan);
+    font-weight: bolder;
 }
