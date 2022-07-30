@@ -24,9 +24,9 @@
 }
 
 /*For debug*/
-*{
+/* *{
     outline: solid greenyellow 2px;
-} 
+}  */
 
 *{
     margin: 0px;
@@ -74,6 +74,13 @@ body, html{
 
 
 .header a:hover{
+    background-color: var(--vivid-orange);
+    color: white ;
+    transition: all 0.1s ease-in;
+}
+
+
+.header a:after{
     background-color: var(--vivid-orange);
     color: white ;
     transition: all 0.1s ease-in;
