@@ -283,12 +283,22 @@ body, html{
 
 .ctaSubtext{
     color: var(--desaturated-cyan);
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
     font-size: 16px;
     color: white;
 
 }
-.ctaButton{
+
+.ctaButton {
+
+}
+
+
+.ctaButton:hover{
+
+}
+
+.ctaButton:active{
 
 }
