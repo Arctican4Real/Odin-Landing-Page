@@ -6,7 +6,8 @@ Super fun to make, and was great practice!
 
 Credits :
 Picture of Orange Juice : Prabs on cleanpng.com
-Orange logo: Flaticon.com
+Orange logo: Flaticon.com - Soodesign
+Present box icon : Flaticon.com - Freepik
 Fonts : Google fonts
 
 Photo:
