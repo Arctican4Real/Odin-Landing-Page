@@ -83,7 +83,7 @@ a, button{
     font-weight: bolder;
     background-color: var(--desaturated-cyan);
     color: white;
-    transition: all 0.2s ease-out;
+    transition: all 0.3s ease-out;
     border-radius: 10px;
 }
 
@@ -91,14 +91,7 @@ a, button{
 .header a:hover{
     background-color: var(--vivid-orange);
     color: white ;
-    transition: all 0.1s ease-in;
-}
-
-
-.header a:after{
-    background-color: var(--vivid-orange);
-    color: white ;
-    transition: all 0.1s ease-in;
+    transition: all 0.3s ease-in;
 }
 
 #logo{
@@ -170,7 +163,6 @@ a, button{
 #signupButton {
     width: 150px;
     height: 50px;
-    transition: width 0.2s ease-out, height 0.2s ease-out, background-color 0.1s linear;
     border-radius: 10px;
 
     font-family: 'Fredoka One', cursive;
@@ -179,6 +171,8 @@ a, button{
 
     background-color: var(--vivid-orange);
     color: var(--slight-white);
+
+    transition: all 0.3s linear;
 }
 
 .signupButtonContainer{
@@ -188,12 +182,13 @@ a, button{
     display: flex;
     align-items: center;
     justify-content: center;
+
+    
 }
 
 #signupButton:hover{
-    transition: width 0.2s ease-in, height 0.2s ease-in, background-color 0.1s linear;
-    height: 70px;
-    background-color: var(--vivid-orange);
+    transition: all 0.3s ease-in;
+    background-color: #ffd001;
     color: white;
 }
 
