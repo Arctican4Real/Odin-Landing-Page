@@ -110,6 +110,11 @@ a, button{
     margin-right: 20px;
 }
 
+#logo img:hover{
+    transition: all 1s ease-out;
+    transform: rotate(360deg);
+}
+
 
 .orange{
     color:var(--vivid-orange);
