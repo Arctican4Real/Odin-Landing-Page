@@ -41,10 +41,6 @@ body, html{
     flex-direction: column;
 }
 
-.dummy{
-    font-size: 100px;
-}
-
 /*Styling the header */
 .header {
     display:flex;
