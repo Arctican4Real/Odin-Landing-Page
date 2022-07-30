@@ -54,6 +54,10 @@ body, html{
 }
 
 
+a, button{
+    cursor:pointer;
+}
+
 /*Styling the header */
 .header {
     display:flex;
