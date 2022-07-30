@@ -29,7 +29,7 @@ body, html{
     align-items: center;
     width: 100%;
 
-    background-color: #1f2937;
+    background-color: var(--soft-cyan);
     height :50px;
     padding: 10px;
 
@@ -37,30 +37,28 @@ body, html{
 }
 
 .header div, .header a{
-    color: white;
     font-size: 16px;
-
 }
 
 .header a{
     padding: 10px;
     margin-left: 10px;
-}
 
-.header a{
-    background-color: #1f2937;
+    background-color: var(--soft-cyan);
     color: white;
     transition: all 0.4s ease-out;
+    border-radius: 20px;
 }
 
 
 .header a:hover{
-    background-color: white;
-    color:  #1f2937 ;
+    background-color: var(--vivid-orange);
+    color: white ;
     transition: all 0.4s ease-in;
 }
 
 #logo{
     font-size: 22px;
     font-weight: 900;
+    color: white;
 }
