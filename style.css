@@ -325,9 +325,9 @@ body, html{
     font-size: 30px;
     font-family: 'Fredoka One', cursive;
     padding: 15px;
-    border: transparent solid 5px;
     color: white;
     border-radius: 20px;
+    border:solid 5px transparent;
     text-align: center;
     background-color: var(--vivid-orange);
 
@@ -336,9 +336,8 @@ body, html{
 
 
 .ctaButton:hover{
-    border: var(--vivid-orange) solid 5px;
-    color: var(--vivid-orange);
-    background-color: white;
+    color: white;
+    background-color: #ffd001;
     transition: all .3s ease-in;
 
 }
