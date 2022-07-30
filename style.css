@@ -22,9 +22,9 @@
 }
 
 /*For debug*/
-*{
+/* *{
     outline: solid greenyellow 2px;
-}
+} */
 
 *{
     margin: 0px;
@@ -67,6 +67,7 @@ body, html{
     padding: 10px;
     margin-left: 10px;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
     background-color: var(--soft-cyan);
     color: white;
     transition: all 0.1s ease-out;
