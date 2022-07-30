@@ -41,7 +41,7 @@ body, html{
     align-items: center;
     width: 100%;
 
-    background-color: var(--soft-cyan);
+    background-color: var(--desaturated-cyan);
     height :50px;
     padding: 10px;
 
@@ -55,8 +55,8 @@ body, html{
 .header a{
     padding: 10px;
     margin-left: 10px;
-
-    background-color: var(--soft-cyan);
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--desaturated-cyan);
     color: white;
     transition: all 0.4s ease-out;
     border-radius: 20px;
@@ -64,20 +64,24 @@ body, html{
 
 
 .header a:hover{
-    background-color: var(--vivid-orange);
+    background-color: var(--soft-cyan);
     color: white ;
     transition: all 0.4s ease-in;
 }
 
 #logo{
-    font-size: 22px;
-    font-weight: 900;
+    font-family:'Mochiy Pop One', sans-serif;
+    font-size: 24px;
     color: white;
 
     height: 20px;
     display: flex;
    
     align-items: center;
-    justify-content: space-between;  
+    justify-content: center;  
     gap:10px;  
+}
+
+#logo .orange{
+    color:var(--vivid-orange);
 }
