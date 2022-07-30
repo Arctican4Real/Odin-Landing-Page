@@ -291,14 +291,30 @@ body, html{
 }
 
 .ctaButton {
+    font-size: 30px;
+    font-family: 'Fredoka One', cursive;
+    padding: 15px;
+    border: white solid 5px;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    background-color: var(--vivid-orange);
+
+    transition: all .3s ease-out;
 
 }
 
 
 .ctaButton:hover{
+    border: var(--vivid-orange) solid 5px;
+    color: var(--vivid-orange);
+    background-color: white;
+    transition: all .3s ease-in;
 
 }
 
 .ctaButton:active{
-
+    color: var(--desaturated-cyan);
+    background-color: white;
+    border: white 5px solid;
 }
