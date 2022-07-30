@@ -18,7 +18,7 @@
     --soft-orange : #fae6b1;
     --vivid-orange: #ffa101;
     --desaturated-cyan : #31525b;
-    --soft-cyan : #b3dee5;
+    --soft-cyan : #98d6e0;
     --light-grey : #e5e7eb;
     --slight-white : #f9faf8;
 }
@@ -274,13 +274,18 @@ body, html{
     background-color: var(--slight-white);
 }
 .cta{
-    background-color: var(--vivid-orange);
+    background-color: var(--soft-cyan);
     padding: 50px;
     border-radius: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+
+.ctaImg img{
+    height: 100px;
+    width: 100px;
 }
 
 .ctaText{
@@ -309,7 +314,7 @@ body, html{
     font-size: 30px;
     font-family: 'Fredoka One', cursive;
     padding: 15px;
-    border: white solid 5px;
+    border: transparent solid 5px;
     color: white;
     border-radius: 20px;
     text-align: center;
