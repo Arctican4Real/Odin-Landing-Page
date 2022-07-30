@@ -125,6 +125,7 @@ body, html{
     font-family: 'Mochiy Pop One', sans-serif;
     font-weight: bold;
     color: var(--desaturated-cyan);
+    text-align: justify;
 }
 
 .topperextra{
