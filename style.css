@@ -16,6 +16,7 @@
     --desaturated-cyan : #31525b;
     --soft-cyan : #83dee5;
     --light-grey : #e5e7eb;
+    --slight-white : #f9faf8;
 }
 
 /*For debug*/
@@ -90,7 +91,7 @@ body, html{
     gap:10px;  
 }
 
-#logo .orange{
+.orange{
     color:var(--vivid-orange);
 }
 
@@ -120,6 +121,14 @@ body, html{
     font-size: 48px;
     font-family: 'Mochiy Pop One', sans-serif;
     font-weight: bold;
+    color: var(--desaturated-cyan);
+}
+
+.topperextra{
+    font-family:'Roboto', sans-serif;
+    font-size: 22px;
+    color: var(--desaturated-cyan);
+    text-align: left;
 }
 
 .topperimg, .topperimg img{
