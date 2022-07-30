@@ -1,3 +1,10 @@
+:root{
+    --soft-orange : #fae6b1;
+    --vivid-orange: #ffa101;
+    --desaturated-cyan : #31525b;
+    --soft-cyan : #83dee5;
+}
+
 *{
     margin: 0px;
     padding: 0px;
