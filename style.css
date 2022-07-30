@@ -135,9 +135,11 @@ body, html{
 
 .topperextra{
     font-family:'Roboto', sans-serif;
+    font-weight: bold;
     font-size: 22px;
     color: var(--desaturated-cyan);
     text-align: left;
+    line-height: 30px;
 }
 
 .topperimg, .topperimg img{
