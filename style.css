@@ -1,11 +1,13 @@
 /*Importing multiple fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script:wght@500&family=Fredoka+One&family=Mochiy+Pop+One&family=Roboto:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script:wght@500&family=Fredoka+One&family=Lato&family=Mochiy+Pop+One&family=Roboto:ital,wght@1,100&display=swap');
 /*
     font-family: 'Amatic SC', cursive;
 
     font-family: 'Dancing Script', cursive;
 
     font-family: 'Fredoka One', cursive;
+
+    font-family: 'Lato', sans-serif;
 
     font-family: 'Mochiy Pop One', sans-serif;
 
@@ -250,4 +252,43 @@ body, html{
     font-size: 20px;
     color: #1c2f34;
     margin-top: 30px;
+}
+
+/*WorkiA*/
+.ctaCont{
+    padding: 200px 100px;
+}
+.cta{
+    background-color: var(--vivid-orange);
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ctaText{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 20px;
+}
+
+.ctaHeader{
+    font-family: 'Fredoka One', cursive;
+    font-size: 32px;
+    color: white;
+}
+
+.ctaSubtext{
+    color: var(--desaturated-cyan);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+
+}
+.ctaButton{
+
 }
