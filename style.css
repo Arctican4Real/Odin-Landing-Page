@@ -61,4 +61,11 @@ body, html{
     font-size: 22px;
     font-weight: 900;
     color: white;
+
+    height: 20px;
+    display: flex;
+   
+    align-items: center;
+    justify-content: space-between;  
+    gap:10px;  
 }
