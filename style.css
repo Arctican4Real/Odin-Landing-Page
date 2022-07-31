@@ -22,9 +22,9 @@
 }
 
 /*For debug*/
-/* *{
+*{
     outline: solid greenyellow 2px;
-}    */
+}   
 
 *{
     margin: 0px;
@@ -120,13 +120,14 @@ a, button{
 
 /*Working on the topper*/
 .topper{
-    padding-top: 50px;
+    padding: 70px;
 
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
     background-color: var(--soft-orange);
+
 }
 
 .toppertext{
@@ -136,15 +137,17 @@ a, button{
     align-items: flex-start;
     gap: 20px;
 
-    height: 500px;
-    width: 500px;
+    height: auto;
+    width: 50%;
+
+    flex-shrink: 1;
 }
 
 .topperhead span{
     padding : 0px 7px;
     margin:0px;
     border:0px;
-    font-size: 45px;
+    font-size: 40px;
 }
 
 .topperhead {
@@ -165,8 +168,8 @@ a, button{
 }
 
 .topperimg, .topperimg img{
-    height: 500px;
-    width: auto;
+    height: auto;
+    width: 20rem;
 }
 
 /* Styling Signup Button*/
