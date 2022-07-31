@@ -1,9 +1,7 @@
 /*Importing multiple fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script:wght@500&family=Fredoka+One&family=Lato&family=Mochiy+Pop+One&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Fredoka+One&family=Lato&family=Mochiy+Pop+One&family=Roboto:ital,wght@1,100&display=swap');
 /*
-    font-family: 'Amatic SC', cursive;
-
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Courgette', cursive;
 
     font-family: 'Fredoka One', cursive;
 
@@ -215,8 +213,8 @@ a, button{
 }
 
 .infoCardTitle{
-    font-size: 70px;
-    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    font-family: 'Courgette', cursive;
     margin-bottom: 30px;
     color: var(--desaturated-cyan);
 
