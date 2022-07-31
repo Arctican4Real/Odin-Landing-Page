@@ -124,7 +124,7 @@ a, button{
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 
     background-color: var(--soft-orange);
 
@@ -167,11 +167,11 @@ a, button{
     line-height: 30px;
 }
 
-.topperimg, .topperimg img{
+.topper img{
     height: auto;
-    width: 20rem;
+    width: 30%;
 
-    padding: 20px;
+    flex: 0 1 auto;
 }
 
 /* Styling Signup Button*/
@@ -323,8 +323,8 @@ a, button{
 }
 
 .ctaImg img{
-    height: 100px;
-    width: 100px;
+    height: 5rem;
+    width: 5rem;
 }
 
 .ctaText{
