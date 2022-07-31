@@ -170,6 +170,8 @@ a, button{
 .topperimg, .topperimg img{
     height: auto;
     width: 20rem;
+
+    padding: 20px;
 }
 
 /* Styling Signup Button*/
