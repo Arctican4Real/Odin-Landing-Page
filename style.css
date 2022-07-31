@@ -24,7 +24,7 @@
 /*For debug*/
 /* *{
     outline: solid greenyellow 2px;
-}   */
+}    */
 
 *{
     margin: 0px;
@@ -138,6 +138,13 @@ a, button{
 
     height: 500px;
     width: 500px;
+}
+
+.topperhead span{
+    padding : 0px 7px;
+    margin:0px;
+    border:0px;
+    font-size: 45px;
 }
 
 .topperhead {
