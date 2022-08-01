@@ -170,7 +170,6 @@ a, button{
     flex: 2 1 auto;
 }
 
-
 .toppertext{
     display: flex;
     flex-direction: column;
@@ -197,9 +196,7 @@ a, button{
     font-weight: bold;
     color: var(--desaturated-cyan);
     text-align: left;
-}
 
-.topperhead{
     display: flex;
     flex-wrap: wrap;
 
