@@ -354,7 +354,7 @@ a, button{
     background-color: var(--slight-white);
 }
 .cta{
-    background-color: var(--soft-cyan);
+    background-color: #5fd4e6;
     padding: 50px;
     border-radius: 10px;
     display: flex;
