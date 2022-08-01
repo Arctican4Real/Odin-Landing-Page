@@ -22,9 +22,9 @@
 }
 
 /*For debug*/
-/* *{
+*{
     outline: solid greenyellow 2px;
-}     */
+}    
 
 *{
     margin: 0px;
@@ -163,6 +163,14 @@ a, button{
 
 }
 
+.topper img{
+    height: auto;
+    width: 30%;
+
+    flex: 2 1 auto;
+}
+
+
 .toppertext{
     display: flex;
     flex-direction: column;
@@ -173,7 +181,7 @@ a, button{
     height: auto;
     width: 50%;
 
-    flex-shrink: 1;
+    flex: 1 1 auto;
 }
 
 .topperhead span{
@@ -188,7 +196,18 @@ a, button{
     font-family: 'Mochiy Pop One', sans-serif;
     font-weight: bold;
     color: var(--desaturated-cyan);
-    text-align: justify;
+    text-align: left;
+}
+
+.topperhead{
+    display: flex;
+    flex-wrap: wrap;
+
+    flex-shrink: 1;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+
 }
 
 .topperextra{
@@ -199,14 +218,6 @@ a, button{
     text-align: left;
     line-height: 30px;
 }
-
-.topper img{
-    height: auto;
-    width: 30%;
-
-    flex: 0 1 auto;
-}
-
 /* Styling Signup Button*/
 #signupButton {
     width: 150px;
